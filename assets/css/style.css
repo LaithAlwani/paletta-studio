@@ -1,3 +1,18 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex ;
+    flex-direction: column;
+    height: 100%;
+}
+.uk-navbar{
+    width: 90%;
+    margin:5px auto;
+}
+.uk-offcanvas-content {
+    flex: 1 0 auto;
+}
 header img{
     width:12%;  
 }
