@@ -23,25 +23,43 @@
     <header>
         <div class="uk-margin" uk-navbar>
             <div class="uk-navbar-left">
-                <ul class="uk-navbar-nav">
+                <a href="index.html" class=" uk-logo">
+                    <img src="assets/images/logo-transparent.png" alt="paletta studio logo">
+                </a>
+            </div>
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav uk-visible@m">
                     <li class="uk-navbar-item uk-active"><a href="#">About</a></li>
                     <li class="uk-navbar-item "><a href="">Projects</a></li>
                     <li class="uk-navbar-item "><a href="">Contact</a></li>
                 </ul>
-                <a class="uk-navbar-toggle" href="#">
-                </a>
+                
             </div>
-            <div class="uk-navbar-center">
-                <a href="index.html" class="uk-navbar-item uk-logo">
-                    <img src="assets/images/logo-transparent.png" alt="paletta studio logo">
-                </a>
-            </div>
-            <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav">
+            
+            <div class="uk-navbar-right ">
+                <ul class="uk-navbar-nav uk-visible@m">
                     <li class="uk-navbar-item"><a href="https://www.facebook.com/PalettaArtStudio" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
                         </li>
                     <li class="uk-navbar-item"><a href="https://www.instagram.com/paletta_studio" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></li>
                 </ul>
+            </div>
+
+            <div class="uk-navbar-right uk-hidden@m">
+                <a class="uk-navbar-toggle " uk-navbar-toggle-icon href="#mobile-nav"  uk-toggle></a>
+            </div>
+
+            <div id="mobile-nav" uk-offcanvas= "overlay:true">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+                    <a href="index.html" class=" uk-logo">
+                        <img src="assets/images/logo-transparent.png" alt="paletta studio logo">
+                    </a>
+                    <ul class="uk-nav">
+                        <li class="uk-navbar-item uk-active"><a href="#">About</a></li>
+                        <li class="uk-navbar-item "><a href="">Projects</a></li>
+                        <li class="uk-navbar-item "><a href="">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -50,7 +68,7 @@
     </main>
 
     <footer class="uk-text-center">
-        <p class="uk-text-small">Copyright &#169 2020</p>
+        <p class="uk-text-small">Copyright &#169 Paletta Studio 2020</p>
     </footer>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" 

@@ -10,9 +10,22 @@ body {
     width: 90%;
     margin:5px auto;
 }
+.uk-offcanvas-bar{
+    background-color:white;
+    
+}
+.uk-offcanvas-bar a{
+    color:black;
+    
+}
+
+.uk-offcanvas-bar img{
+   width: 80%;
+   padding-left: 25% ;
+}    
 .uk-offcanvas-content {
     flex: 1 0 auto;
 }
 header img{
-    width:12%;  
+    width:15%;  
 }
