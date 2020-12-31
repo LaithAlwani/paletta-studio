@@ -6,21 +6,26 @@ body {
     flex-direction: column;
     height: 100%;
 }
-.uk-navbar{
-    width: 90%;
-    margin: 0 auto;
+.uk-logo{
+    padding-left: 25px;
 }
+
 .uk-offcanvas-bar{
     background-color:white;
     
 }
 .uk-offcanvas-bar a{
-    color:black;
+    color:#999;
     
 }
-.uk-offcanvas-bar button{
-    color: black;
-} 
+.uk-offcanvas-bar a:hover{
+    color:#666;
+    
+}
+
+#main{
+    margin-top: 5rem;
+}
   
 .uk-offcanvas-content {
     flex: 1 0 auto;
@@ -28,3 +33,4 @@ body {
 header img{
     width:75px;  
 }
+

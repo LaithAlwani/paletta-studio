@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <!-- UIkit CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/css/uikit.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- UIkit JS -->
@@ -19,6 +18,7 @@
 
     <title>Paletta Studio</title>
 </head>
+
 <body>
     <header>
         <div class="uk-margin" uk-navbar>
@@ -27,48 +27,92 @@
                     <img src="assets/images/logo-transparent.png" alt="paletta studio logo">
                 </a>
             </div>
-            <div class="uk-navbar-center">
-                <ul class="uk-navbar-nav uk-visible@m">
-                    <li class="uk-navbar-item uk-active"><a href="#">About</a></li>
+            <div class="uk-navbar-center" >
+                <ul class="uk-navbar-nav uk-visible@m" uk-switcher="connect: #main; animation: uk-animation-slide-right">
+                    <li class="uk-navbar-item uk-active"><a href="">About</a></li>
                     <li class="uk-navbar-item "><a href="">Projects</a></li>
                     <li class="uk-navbar-item "><a href="">Contact</a></li>
                 </ul>
-                
+
             </div>
             
             <div class="uk-navbar-right ">
-                <ul class="uk-navbar-nav uk-visible@m">
-                    <li class="uk-navbar-item"><a href="https://www.facebook.com/PalettaArtStudio" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-                        </li>
-                    <li class="uk-navbar-item"><a href="https://www.instagram.com/paletta_studio" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+                <ul class="uk-navbar-nav uk-visible@m" >
+                    <li class="uk-navbar-item"><a href="https://www.facebook.com/PalettaArtStudio" target="_blank"><i
+                                class="fab fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="uk-navbar-item"><a href="https://www.instagram.com/paletta_studio" target="_blank"><i
+                                class="fab fa-instagram-square fa-2x"></i></a></li>
                 </ul>
             </div>
 
-            <div class="uk-navbar-right uk-hidden@m">
+            <div class="uk-navbar-right uk-hidden@m" >
                 <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #mobile-nav"></a>
             </div>
 
-            <div id="mobile-nav" uk-offcanvas= "overlay:true; flip:true" >
+            <!-- mobile navbar -->  
+            <div id="mobile-nav" uk-offcanvas="overlay:true; flip:true">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column ">
-                    <ul class="uk-nav">
-                        <li class="uk-navbar-item uk-active"><a href="#">About</a></li>
+                    <ul class="uk-nav" uk-switcher="connect: #main; animation: uk-animation-slide-right">
+                        <li class="uk-navbar-item " ><a href="">About</a></li>
                         <li class="uk-navbar-item "><a href="">Projects</a></li>
                         <li class="uk-navbar-item "><a href="">Contact</a></li>
                     </ul>
                 </div>
             </div>
+
         </div>
     </header>
-    <main class="uk-container uk-offcanvas-content">
+    
+    <main class="uk-container uk-offcanvas-content ">
+        <ul id="main" class="uk-switcher">
+            <li uk-grid class="uk-active">
+                <div class="uk-width-1-2">
+                    <h3>About Paletta</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus explicabo ut voluptates soluta,
+                        maxime in vitae ea perspiciatis magnam iusto voluptas, totam ex nesciunt fugiat earum
+                        consequuntur.
+                        Maiores delectus odio nemo, voluptate unde quis repudiandae voluptatibus sequi, alias commodi
+                        at!</p>
+                </div>
+                <div class="uk-width-1-2">
+                    <img src="https://image.shutterstock.com/image-photo/digital-media-multimedia-networking-internet-260nw-342440960.jpg"
+                        alt="">
+                </div>
+            </li>
+            <li class="uk-text-center">
+                <h3 class="">Projects</h3>
+                <div class="uk-card">
+                    <img src="https://image.shutterstock.com/image-photo/digital-media-multimedia-networking-internet-260nw-342440960.jpg"
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente consequatur eum nam eaque,
+                        porro ab quibusdam assumenda commodi nulla. Adipisci.</p>
+                </div>
+            </li>
+            <li>
+                Contact
+                <p>dlkfhlsdkjhf lakjshdf lkj</p>
+            </li>
+        </ul>
+
+
+
+
+
+        
+        
+
 
     </main>
 
-    <footer class="uk-text-center">
+    <footer class="uk-text-center uk-margin">
         <p class="uk-text-small">Copyright &#169 Paletta Studio 2020</p>
     </footer>
     <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" 
-            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
