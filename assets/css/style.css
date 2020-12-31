@@ -9,10 +9,7 @@ body {
 .uk-logo{
     padding-left: 25px;
 }
-#main{
-    margin-top: 5rem;
-}
-  
+
 .uk-offcanvas-content {
     flex: 1 0 auto;
 }
@@ -43,9 +40,6 @@ header img{
 }
 
 @media only screen and (max-width:425px){
-    #main{
-        margin-top: 0;
-    }
       
     footer{
         min-height: 80px;
@@ -59,7 +53,7 @@ header img{
 
     #social ul{
         left:Calc(50% - 335px / 2);
-        bottom: 2.5em;  
-        padding:0;
+        bottom: 1.5em;  
+        padding:5px;
     }
 }
