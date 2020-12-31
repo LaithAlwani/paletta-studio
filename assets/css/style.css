@@ -9,20 +9,6 @@ body {
 .uk-logo{
     padding-left: 25px;
 }
-
-/* .uk-offcanvas-bar{
-    background-color:rgb(128, 128, 128);
-    
-}
-.uk-offcanvas-bar a{
-    color:rgb(92, 91, 91);
-    
-}
-.uk-offcanvas-bar a:hover{
-    color:#666;
-    
-} */
-
 #main{
     margin-top: 5rem;
 }
@@ -58,15 +44,13 @@ header img{
 
 @media only screen and (max-width:425px){
     #main{
-        margin-top: 1em;
+        margin-top: 0;
     }
       
     footer{
-        height: 80px;
-        margin-top: 1em;
+        min-height: 80px;
     }
     footer p{
-        /* margin: 0; */
         position: absolute;
         bottom: 0;
         left:Calc(50% - 200px / 2);
