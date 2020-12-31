@@ -24,7 +24,7 @@ body {
 } */
 
 #main{
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
   
 .uk-offcanvas-content {
@@ -33,9 +33,6 @@ body {
 header img{
     width:75px;  
 }
-
-
-
 
 #social{
     position: relative;
@@ -60,6 +57,10 @@ header img{
 }
 
 @media only screen and (max-width:425px){
+    #main{
+        margin-top: 1em;
+    }
+      
     footer{
         height: 80px;
         margin-top: 1em;
