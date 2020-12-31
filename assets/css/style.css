@@ -24,7 +24,7 @@ body {
 } */
 
 #main{
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
   
 .uk-offcanvas-content {
@@ -34,3 +34,47 @@ header img{
     width:75px;  
 }
 
+
+
+
+#social{
+    position: relative;
+    
+}
+
+#social ul{
+    position: absolute;
+    right: 1.5rem;
+    bottom:0px;
+    list-style: none;
+}
+
+#social ul li{
+    display: inline;
+    padding: 5px 10px;
+    color:inherit;
+}
+
+#social ul li a{
+    color: inherit;
+}
+
+@media only screen and (max-width:425px){
+    footer{
+        height: 80px;
+    }
+    footer p{
+        /* margin: 0; */
+        position: absolute;
+        bottom: 0;
+        left:Calc(50% - 200px / 2);
+    }
+
+
+    #social ul{
+        left:Calc(50% - 270px / 2);
+        bottom: 2em;
+        margin-top: 1em;
+        padding:0;
+    }
+}
