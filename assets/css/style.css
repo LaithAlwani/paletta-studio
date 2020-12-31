@@ -10,18 +10,18 @@ body {
     padding-left: 25px;
 }
 
-.uk-offcanvas-bar{
-    background-color:white;
+/* .uk-offcanvas-bar{
+    background-color:rgb(128, 128, 128);
     
 }
 .uk-offcanvas-bar a{
-    color:#999;
+    color:rgb(92, 91, 91);
     
 }
 .uk-offcanvas-bar a:hover{
     color:#666;
     
-}
+} */
 
 #main{
     margin-top: 5rem;

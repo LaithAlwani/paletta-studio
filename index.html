@@ -27,16 +27,16 @@
                     <img src="assets/images/logo-transparent.png" alt="paletta studio logo">
                 </a>
             </div>
-            <div class="uk-navbar-center" >
-                <ul class="uk-navbar-nav uk-visible@m" uk-switcher="connect: #main; animation: uk-animation-slide-right">
-                    <li class="uk-navbar-item uk-active"><a href="">About</a></li>
-                    <li class="uk-navbar-item "><a href="">Projects</a></li>
-                    <li class="uk-navbar-item "><a href="">Contact</a></li>
+            <div class="uk-navbar-right" >
+                <ul class="uk-navbar-nav " uk-switcher="connect: #main; animation: uk-animation-slide-right">
+                    <li class=""><a href="">About</a></li>
+                    <li class=""><a href="">Projects</a></li>
+                    <li class=""><a href="">Contact</a></li>
                 </ul>
 
             </div>
             
-            <div class="uk-navbar-right ">
+            <!-- <div class="uk-navbar-right ">
                 <ul class="uk-navbar-nav uk-visible@m" >
                     <li class="uk-navbar-item"><a href="https://www.facebook.com/PalettaArtStudio" target="_blank"><i
                                 class="fab fa-facebook-square fa-2x"></i></a>
@@ -44,31 +44,35 @@
                     <li class="uk-navbar-item"><a href="https://www.instagram.com/paletta_studio" target="_blank"><i
                                 class="fab fa-instagram-square fa-2x"></i></a></li>
                 </ul>
-            </div>
+            </div> -->
 
-            <div class="uk-navbar-right uk-hidden@m" >
+            <!-- <div class="uk-navbar-right uk-hidden@m" >
                 <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #mobile-nav"></a>
             </div>
 
-            <!-- mobile navbar -->  
+            <!-- mobile navbar  
             <div id="mobile-nav" uk-offcanvas="overlay:true; flip:true">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column ">
-                    <ul class="uk-nav" uk-switcher="connect: #main; animation: uk-animation-slide-right">
-                        <li class="uk-navbar-item " ><a href="">About</a></li>
-                        <li class="uk-navbar-item "><a href="">Projects</a></li>
-                        <li class="uk-navbar-item "><a href="">Contact</a></li>
+                    <ul class="uk-nav uk-nav-primary uk-dark uk-text-center">
+                        <li class="" ><a href="#about">About</a></li>
+                        <li class=""><a href="#projects">Projects</a></li>
+                        <li class=""><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </header>
-    
-    <main class="uk-container uk-offcanvas-content ">
-        <ul id="main" class="uk-switcher">
-            <li uk-grid class="uk-active">
-                <div class="uk-width-1-2">
+
+    <main class="uk-container uk-offcanvas-content">
+        <div id="main" class="uk-switcher uk-text-center">
+            <div uk-grid  id="about" class="uk-margin">
+                <div class="uk-width-1-2@m">
+                    <img src="https://image.shutterstock.com/image-photo/digital-media-multimedia-networking-internet-260nw-342440960.jpg"
+                        alt="">
+                </div>
+                <div class="uk-width-1-2@m">
                     <h3>About Paletta</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus explicabo ut voluptates soluta,
                         maxime in vitae ea perspiciatis magnam iusto voluptas, totam ex nesciunt fugiat earum
@@ -76,25 +80,21 @@
                         Maiores delectus odio nemo, voluptate unde quis repudiandae voluptatibus sequi, alias commodi
                         at!</p>
                 </div>
-                <div class="uk-width-1-2">
-                    <img src="https://image.shutterstock.com/image-photo/digital-media-multimedia-networking-internet-260nw-342440960.jpg"
-                        alt="">
-                </div>
-            </li>
-            <li class="uk-text-center">
+            </div>
+            <div id="projects">
                 <h3 class="">Projects</h3>
-                <div class="uk-card">
+                <div class="">
                     <img src="https://image.shutterstock.com/image-photo/digital-media-multimedia-networking-internet-260nw-342440960.jpg"
                         alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente consequatur eum nam eaque,
                         porro ab quibusdam assumenda commodi nulla. Adipisci.</p>
                 </div>
-            </li>
-            <li>
-                Contact
+            </div>
+            <div id="contact">
+                <h3>Contact</h3>
                 <p>dlkfhlsdkjhf lakjshdf lkj</p>
-            </li>
-        </ul>
+            </div>
+        </div>
 
 
 
