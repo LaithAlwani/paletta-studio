@@ -20,8 +20,8 @@
 </head>
 
 <body class="uk-background-muted">
-    <header class="">
-        <div class="uk-margin" uk-navbar>
+    <header>
+        <nav uk-navbar>
             <div class="uk-navbar-left">
                 <a href="index.html" class=" uk-logo">
                     <img src="assets/images/logo-transparent.png" alt="paletta studio logo">
@@ -54,12 +54,12 @@
                 </div>
             </div> -->
 
-        </div>
+        </nav>
     </header>
 
     <main class="uk-container uk-offcanvas-content">
         <div id="main" class="uk-switcher uk-text-center">
-            <div uk-grid id="about" class="">
+            <div uk-grid id="about">
                 <div class="uk-width-1-2@s">
                     <img src="https://image.shutterstock.com/image-photo/digital-media-multimedia-networking-internet-260nw-342440960.jpg"
                         alt="">
@@ -86,13 +86,13 @@
                 <h3>Contact Us:</h3>
                 <form>
                     <div class="uk-margin">
-                        <input class="uk-input uk-form-width-large" type="text" placeholder="Full Name">
+                        <input class="uk-input uk-form-width-large@m uk-form-controls" type="text" placeholder="Full Name">
                     </div>
                     <div class="uk-margin">
-                        <input class="uk-input uk-form-width-large" type="email" placeholder="Email Address" required>
+                        <input class="uk-input uk-form-width-large uk-form-controls" type="email" placeholder="Email Address" required>
                     </div>
                     <div class="uk-margin">
-                        <textarea name="" id="" cols="30" rows="10" class="uk-textarea" placeholder="Text here..."
+                        <textarea name="" id="" cols="30" rows="10" class="uk-textarea " placeholder="Text here..."
                             required></textarea>
                     </div>
                     <button class="uk-button uk-button-default uk-width-1-1">Submit</button>
@@ -104,12 +104,14 @@
 
     <footer id="social" class="uk-text-center">
 
-        <ul class="">
-            <li class=""><a href="https://www.facebook.com/PalettaArtStudio" target="_blank"><span
+        <ul>
+            <li ><a href="https://www.facebook.com/PalettaArtStudio" target="_blank"><span
                         uk-icon="facebook"></span></a>
             </li>
-            <li class=""><a href="https://www.instagram.com/paletta_studio" target="_blank"><span
-                        uk-icon="instagram"></a></li>
+            <li ><a href="https://www.instagram.com/paletta_studio" target="_blank"><span
+                        uk-icon="instagram"></a>
+            </li>
+            <li><a href="privacy-policy.html" targe="_blank">Privacy Policy</a></li>
         </ul>
 
 

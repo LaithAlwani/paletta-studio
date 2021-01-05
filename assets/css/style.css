@@ -5,8 +5,6 @@ body {
     display: flex ;
     flex-direction: column;
     height: 100%;
-    
-    
 }
 
 .uk-navbar{
@@ -55,10 +53,7 @@ button, a {
         width: 100%;
         
     }
-    #about{
-        height: 100%;
-        padding-top: 0;
-    }
+    
       
     footer{
         min-height: 80px;
