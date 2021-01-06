@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="uk-background-muted">
 
 <head>
     <meta charset="UTF-8">
@@ -19,45 +19,26 @@
     <title>Paletta Studio</title>
 </head>
 
-<body class="uk-background-muted">
+<body >
     <header>
         <nav uk-navbar>
-            <div class="uk-navbar-left">
-                <a href="index.html" class=" uk-logo">
-                    <img src="assets/images/logo-transparent.png" alt="paletta studio logo">
-                </a>
-            </div>
-            <div class="uk-navbar-right">
+            <div class="uk-navbar">
                 <ul class="uk-navbar-nav " uk-switcher="connect: #main; animation: uk-animation-slide-right">
-                    <li class=""><a href="">About</a></li>
+                    <a href="index.html" class=" uk-logo">
+                        <img src="assets/images/logo-transparent.png" alt="paletta studio logo">
+    
+                    </a>
+
                     <li class=""><a href="">Projects</a></li>
                     <li class=""><a href="">Contact</a></li>
+
                 </ul>
-
+                
             </div>
-
-
-
-            <!-- <div class="uk-navbar-right uk-hidden@m" >
-                <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #mobile-nav"></a>
-            </div>
-
-            <!-- mobile navbar  
-            <div id="mobile-nav" uk-offcanvas="overlay:true; flip:true">
-                <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <div class="uk-offcanvas-bar uk-flex uk-flex-column ">
-                    <ul class="uk-nav uk-nav-primary uk-dark uk-text-center">
-                        <li class="" ><a href="#about">About</a></li>
-                        <li class=""><a href="#projects">Projects</a></li>
-                        <li class=""><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div> -->
-
         </nav>
     </header>
 
-    <main class="uk-container uk-offcanvas-content">
+    <main class="uk-container uk-offcanvas-content uk-margin">
         <div id="main" class="uk-switcher uk-text-center">
             <div uk-grid id="about">
                 <div class="uk-width-1-2@s">
@@ -86,10 +67,12 @@
                 <h3>Contact Us:</h3>
                 <form>
                     <div class="uk-margin">
-                        <input class="uk-input uk-form-width-large@m uk-form-controls" type="text" placeholder="Full Name">
+                        <input class="uk-input uk-form-width-large@m uk-form-controls" type="text"
+                            placeholder="Full Name">
                     </div>
                     <div class="uk-margin">
-                        <input class="uk-input uk-form-width-large uk-form-controls" type="email" placeholder="Email Address" required>
+                        <input class="uk-input uk-form-width-large uk-form-controls" type="email"
+                            placeholder="Email Address" required>
                     </div>
                     <div class="uk-margin">
                         <textarea name="" id="" cols="30" rows="10" class="uk-textarea " placeholder="Text here..."
@@ -105,13 +88,14 @@
     <footer id="social" class="uk-text-center">
 
         <ul>
-            <li ><a href="https://www.facebook.com/PalettaArtStudio" target="_blank"><span
-                        uk-icon="facebook"></span></a>
+            <li><a href="https://www.facebook.com/PalettaArtStudio" target="_blank"><span uk-icon="facebook"></span></a>
             </li>
-            <li ><a href="https://www.instagram.com/paletta_studio" target="_blank"><span
-                        uk-icon="instagram"></a>
+            <li><a href="https://www.instagram.com/paletta_studio" target="_blank"><span uk-icon="instagram"></a>
             </li>
-            <li><a href="privacy-policy.html" targe="_blank">Privacy Policy</a></li>
+            
+            <li><a href="privacy-policy.html" target="_blank">Privacy Policy</a></li>
+            
+
         </ul>
 
 

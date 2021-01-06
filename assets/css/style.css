@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    
 }
 body {
     display: flex ;
@@ -7,28 +8,22 @@ body {
     height: 100%;
 }
 
-.uk-navbar{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .uk-offcanvas-content {
     flex: 1 0 auto;
 }
 header img{
-    width:75px;  
+    min-width:100px; 
+    max-width: 100px; 
 }
 
 
 #social{
     position: relative;
-    
 }
 
 #social ul{
     position: absolute;
-    right: 7rem;
+    right: 5rem;
     bottom:0px;
     list-style: none;
 }
@@ -49,12 +44,7 @@ button, a {
 }
 
 @media only screen and (max-width:679px){
-    .uk-navbar{
-        width: 100%;
-        
-    }
-    
-      
+
     footer{
         min-height: 80px;
     }
@@ -65,7 +55,8 @@ button, a {
     }
 
     #social ul{
-        left:Calc(50% - 210px / 2);
+        width: 100%;
+        left:Calc(50% - 330px / 2);
         bottom: 1.5em;  
         padding:5px;
     }
