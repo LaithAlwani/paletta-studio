@@ -62,8 +62,8 @@ button, a {
     }
 
     footer ul{
-        min-width: 100%;
-        left:Calc(50% - 330px / 2);
+        min-width: 300px;
+        left:Calc(50% - 310px / 2);
         bottom: 1.5em;  
         padding:5px;
     }
