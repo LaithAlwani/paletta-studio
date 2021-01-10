@@ -26,24 +26,24 @@ footer p{
 }
 
 
-#social{
+footer{
     position: relative;
 }
 
-#social ul{
+footer ul{
     position: absolute;
     right: 5rem;
     bottom:0px;
     list-style: none;
 }
 
-#social ul li{
+footer ul li{
     display: inline;
     
     color:inherit;
 }
 
-#social ul li a{
+footer ul li a{
     color: inherit;
 }
 
@@ -61,8 +61,8 @@ button, a {
         min-height: 80px;
     }
 
-    #social ul{
-        width: 100%;
+    footer ul{
+        min-width: 100%;
         left:Calc(50% - 330px / 2);
         bottom: 1.5em;  
         padding:5px;
