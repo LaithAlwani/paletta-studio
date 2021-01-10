@@ -1,19 +1,13 @@
- /* html {
-    min-height: 100%;
+ html, body {
+    height: 100vh;
     
 }
-body {
-    /* display: flex ;
-    flex-direction: column;  
-    height: 100%
-    
-}  */
 
 .uk-offcanvas-content {
-    /* flex: 1 0 auto; */
-    /* margin-bottom: 20px; */
+    /* flex: 1 0 auto;  */
+    margin-bottom: 20px; 
     min-height: Calc(100vh - 150px);
-    margin-bottom: 20px;
+    
 }
 
 header img{
