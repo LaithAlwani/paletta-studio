@@ -3,15 +3,22 @@
     
 }
 
+
 .uk-offcanvas-content {
-    /* flex: 1 0 auto;  */
-    margin-bottom: 20px; 
     min-height: Calc(100vh - 150px);
-    
 }
 
 header img{
-    width:75px; 
+    min-width:75px;
+    max-width: 75px; 
+}
+main{
+
+    margin-bottom: 20px;
+}
+#contact{
+    width: 50%;
+    margin: 0 auto;
 }
 
 footer{
@@ -32,14 +39,16 @@ footer{
 
 footer ul{
     position: absolute;
-    right: 5rem;
-    bottom:0px;
+    max-width: 300px;
+    padding: 0;
+    right: 2rem;
+    bottom:-10px;
     list-style: none;
 }
 
 footer ul li{
     display: inline;
-    
+    padding: 0 5px;
     color:inherit;
 }
 
@@ -54,17 +63,19 @@ button, a {
 }
 
 @media only screen and (max-width:679px){
-    #main{
+    .uk-offcanvas-content {
+        min-height: Calc(100vh - 180px);
+    }
+    #contact{
         width: 100%;
+        
     }
     footer{
         min-height: 80px;
     }
 
     footer ul{
-        min-width: 300px;
-        left:Calc(50% - 310px / 2);
+        left:Calc(50% - 300px / 2);
         bottom: 1.5em;  
-        padding:5px;
     }
 }
