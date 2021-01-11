@@ -5,7 +5,7 @@
 
 
 .uk-offcanvas-content {
-    min-height: Calc(100vh - 150px);
+    min-height: Calc(100% - 140px);
 }
 
 header img{
@@ -14,7 +14,7 @@ header img{
 }
 main{
 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #contact{
     width: 50%;
@@ -64,7 +64,7 @@ button, a {
 
 @media only screen and (max-width:679px){
     .uk-offcanvas-content {
-        min-height: Calc(100vh - 180px);
+        min-height: Calc(100% - 170px);
     }
     #contact{
         width: 100%;
