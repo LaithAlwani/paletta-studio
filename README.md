@@ -13,7 +13,7 @@ Technologies:
 ![Paletta](assets/images/paletta02.png)
 ![Paletta](assets/images/paletta03.png)
 
-Visit ![Paletta Studio](www.paletta-studio.com)
+Visit [Paletta Studio](http://www.paletta-studio.com)
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
