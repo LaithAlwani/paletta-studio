@@ -15,5 +15,6 @@ Technologies:
 
 Visit [Paletta Studio](http://www.paletta-studio.com)
 
+please contact me at laithalwani@gmail.com for further informations.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
